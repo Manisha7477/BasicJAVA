@@ -1,0 +1,25 @@
+public class Solution0 {
+	public static void main(String[] args)
+	{
+		//System.out.println(Math.PI);
+		//System.out.println((float)Math.PI);
+		//System.out.println(String.format("%.4f",Math.PI));
+		//double d = Math.PI;
+		//System.out.printf("%.4f" ,f);
+		//float f = 3.4478967f;
+		//System.out.printf("%.2f" ,f); // maximum capacity of float is 6 digits,if write %f , the i got 3.447896
+		//long i =40;  //40 = called litral
+		//System.out.printf("%d",i);
+		//char a = 'A';
+		//String s = "Kodnest";
+		//System.out.printf("%s" ,s);  //%s or %c
+		int b=40;
+		Student s = new Student();
+		System.out.println(s.a);
+		System.out.println(b);
+		
+		
+		
+	}
+
+}
