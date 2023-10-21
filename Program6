@@ -1,0 +1,13 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application6 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter the Fahrenheit value");
+		double fahrenheit = scan.nextDouble();
+		Question6 q6 = new Question6();
+		double celsius = q6.convertFahrenheitToCelsius(fahrenheit);
+		System.out.println("The Celsius Value is :" + String.format("%.2f",celsius));
+	}
+
+}
