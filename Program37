@@ -1,0 +1,11 @@
+public class parcelweight {
+	public static void main(String[] args) {
+		int oneitemweight = 10;
+		int twoitemweight =6;
+		int weight = oneitemweight+twoitemweight/2;
+		System.out.println("TotalWeight =" +weight);
+		//System.out.println("Total weight =" +oneitemweight + twoitemweight/2);
+		
+	}
+
+}
