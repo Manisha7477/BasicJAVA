@@ -1,0 +1,10 @@
+package com.kodnest.programming;
+
+public class Question4 {
+	public static String joinStrings(String str1, String str2)
+	{
+		String result = str1 + str2;
+		return result;
+	}
+
+}
