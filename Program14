@@ -1,0 +1,15 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application14 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please int minutes value");
+		double m = scan.nextDouble();
+		
+		Question14 q14 = new Question14();
+		double hours = q14.convertToHours(m);
+		System.out.println("The equivalant number of hours is ="+hours);
+		
+	}
+
+}
