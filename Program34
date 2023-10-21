@@ -1,0 +1,20 @@
+class Constructor {
+	String name;
+	int age;
+	float marks;
+	void study()
+	{
+	System.out.println("Studying");
+	}
+	void sleep()
+	{
+		System.out.println("Sleeping");
+	}
+	public Constructor(String a,int b,float c)
+	{
+		name = a;
+		age = b;
+		marks = c;
+	}
+
+}
