@@ -1,0 +1,15 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application12 {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		
+		System.out.println("User! Please enetr the inche double value");
+		double inches = scan.nextDouble();
+		
+		Question12 q12 = new Question12();
+		double result =q12.convertInchesToFeet(72.0);
+		System.out.println("The height converted to feet :"+String.format("%.2f", result));
+	}
+
+}
