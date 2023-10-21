@@ -1,0 +1,14 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application16 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please enter the long value");
+		long s = scan.nextLong();
+		
+		Question16 q16 = new Question16();
+		long res = q16.calculateThrust(s);
+		System.out.println("The Calculate Thrust is ="+res);
+	}
+
+}
