@@ -1,0 +1,16 @@
+public class Staticapp {
+	public static void main(String[] args)
+	{
+		//Staticvariable s = new Staticvariable();
+//		Staticvariable.rollno = 12;
+//		System.out.println( Staticvariable.marks + "marks and roll is " + Staticvariable.rollno);
+		float d = 23.4f;
+		int i = (int) d ;
+		double e = (double)i;
+		
+		System.out.println(d);
+		System.out.println(i);
+		System.out.println(e);
+	}
+
+}
