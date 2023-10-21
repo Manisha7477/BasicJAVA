@@ -1,0 +1,18 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application5 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please enter the double speed value");
+		double speed = scan.nextDouble();
+		
+		System.out.println("User! Please enter the double time value");
+		double time = scan.nextDouble();
+		
+		Question5 q5= new Question5();
+		double distance = q5.calculateDistance(speed , time);
+		System.out.println("The distance of journey is:" + String.format("%.2f",distance));
+		// use String.format("%.nf", name) - for n decimal value like 4.66, 7.90
+	}
+
+}
