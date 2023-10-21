@@ -1,0 +1,12 @@
+//import java.util.Scanner;
+public class Application2 {
+	public static void main(String[] args)
+	{
+		//Scanner scan = new Scanner(System.in);
+		//double d = scan.nextDouble();
+		Solution2 s2 = new Solution2();
+		s2.display();
+		//System.out.println(value);
+	}
+
+}
