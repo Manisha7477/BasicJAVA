@@ -1,0 +1,25 @@
+package com.kodnest.programming;
+
+import java.util.Scanner;
+public class Application10 {
+		public int decodeCharacter(char a)
+		{
+			int decode = Character.getNumericValue(a);
+			return decode;
+			
+		}
+
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter a character value");
+		char a = scan.next().charAt(0); 
+		//  remember for char = next().charAt(1)
+		
+		System.out.println("The decode value is ="+(int)a);
+		//Question10 q10 = new Question10();
+	     //int decode = q10.decodeCharacter(a);
+		//System.out.println("The decode value is = " + decode);
+
+     }
+}
