@@ -1,0 +1,6 @@
+ class Staticvariable {
+	 public static int rollno ;
+	 public static double marks=23.45; ///static variable
+	
+
+}
