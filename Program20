@@ -1,0 +1,10 @@
+package com.kodnest.programming;
+
+public class Question3
+{
+	int doubleTheNumber(int a)
+	{
+		int result = a*2;
+		return result;
+	}
+}
