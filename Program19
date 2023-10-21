@@ -1,0 +1,25 @@
+package com.kodnest.programming;
+
+public class Question2 {
+	int subtractNumber(int n1 , int n2)
+	{
+		int result = n1 - n2;
+		return result;
+	}
+	int multiplyNumber(int n1 , int n2)
+	{
+		int result = n1*n2;
+		return result;
+	}
+	double divideNumber(int n1 , int n2)
+	{
+		int result = n1 / n2;
+		return result;
+	}
+	int finalRemainder(int n1 , int n2)
+	{
+		int result = n1 % n2;
+		return result;
+	}
+
+}
