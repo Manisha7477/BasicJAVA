@@ -1,0 +1,25 @@
+package com.kodnest.programming;
+
+import java.util.Scanner;
+
+class Application2 {
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please enter first number");
+		int n1 = scan.nextInt();
+		System.out.println("User! Please enter second number");
+		int n2= scan.nextInt();
+		
+		Question2 q2 = new Question2();
+		int result1 = q2.subtractNumber(n1,n2);
+		System.out.println("The Subtract result is="+ result1);
+		int result2 = q2.multiplyNumber(n1,n2);
+		System.out.println("The multiple result is="+ result2);
+		double result3 = q2.divideNumber(n1,n2);
+		System.out.println("The division result is="+ result3);
+		int result4 = q2.finalRemainder(n1,n2);
+		System.out.println("The remainder result is="+ result4);
+	}
+
+}
