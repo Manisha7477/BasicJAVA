@@ -1,0 +1,18 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application17 {
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		System.out.println("User! Please enter the int value ");
+		int l1 = scan.nextInt();
+		System.out.println("User! Please enter the long value");
+		double l2 = scan.nextDouble();
+		
+		Question17 q17 = new Question17();
+		int r1 = q17.calculatePlotArea(l1);
+		System.out.println("Calculate Plot Area = "+r1);
+		double r2 = q17.calculatePlotArea(l2);
+		System.out.println("Calculate Plot Area = "+String.format("%.2f", r2));
+	}
+
+}
