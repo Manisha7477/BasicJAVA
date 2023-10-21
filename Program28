@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Application1 {
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter your age");
+		int a = scan.nextInt();
+		boolean check1 =a >=18;
+		boolean check2 =a <=18;
+		System.out.println("Your are eligible for vote " + check1);
+		System.out.println("Your are  not eligible for vote " + check2);
+	}
+
+}
