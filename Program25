@@ -1,0 +1,11 @@
+package com.kodnest.programming;
+
+public class Question8 {
+	public static int squareNumber(int num)
+	{
+		int square = (num * num);
+		return square ;
+		
+	}
+
+}
