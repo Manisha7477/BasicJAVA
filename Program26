@@ -1,0 +1,10 @@
+package com.kodnest.programming;
+
+public class Question9 {
+	public static int cubeNumber(int num)
+	{
+		int cube = (num*num*num);
+		return cube;
+	}
+
+}
