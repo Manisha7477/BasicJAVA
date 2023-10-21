@@ -1,0 +1,9 @@
+package com.kodnest.programming;
+class Question1 {
+	 long gelacticAddition(long l1 , long l2)
+	{
+	 long result = l1+l2;
+	 return result;
+	}
+	
+}
