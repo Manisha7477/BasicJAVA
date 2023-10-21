@@ -1,0 +1,21 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application13 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("User! Please enter the double principal amount");
+		double principal =scan.nextDouble();
+		
+		System.out.println("User! Please enter the double rate value");
+		double rate =scan.nextDouble();
+		
+		System.out.println("User! Please enter the double time value");
+		double time =scan.nextDouble();
+		
+		Question13 q13 = new Question13();
+		double simpleinterest= q13.calculateSimpleInterest(principal,rate,time);
+		System.out.println("The Simple Interest is = " + String.format("%.2f", args));
+		
+	}
+
+}
