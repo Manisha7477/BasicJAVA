@@ -1,0 +1,14 @@
+class Applicationcon {
+	public static void main(String[] args)
+	{
+		Constructor c = new Constructor("Mani" , 22 , 67.8f);
+		c.study();
+		c.sleep();
+		System.out.println(c.name);
+		System.out.println(c.age);
+		System.out.println(c.marks);
+		Constructor c1 = new Constructor("Chandu" , 24 , 78.8f);
+		c1.study();
+	}
+
+}
