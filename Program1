@@ -1,0 +1,25 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+
+public class Application1 {
+	long gelacticAddition(long l1 , long l2)
+	{
+	 long result = l1+l2;
+	 //System.out.println("The result =" +result);
+	 return result;
+	}
+	public static void main(String[] args)
+	{
+		Scanner scan= new Scanner(System.in);
+		System.out.println("User ! please enter a long number");
+		long l1 = scan.nextLong();
+		System.out.println("User ! please enter a long number");
+		long l2 = scan.nextLong();
+		
+		//Question1 q1 = new Question1();
+		//gelacticAddition(l1,l2);
+		
+		System.out.println("The result =" + l1+l2);
+	}
+
+}
