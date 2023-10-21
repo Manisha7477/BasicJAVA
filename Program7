@@ -1,0 +1,31 @@
+package com.kodnest.programming;
+import java.util.Scanner;
+public class Application7 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter the 1st Sem Marks");
+		int sem1 = scan.nextInt();
+		System.out.println("Please enter the 2nd Sem Marks");
+		int sem2 = scan.nextInt();
+		System.out.println("Please enter the 3rd Sem Marks");
+		int sem3 = scan.nextInt();
+		System.out.println("Please enter the 4th Sem Marks");
+		int sem4 = scan.nextInt();
+		System.out.println("Please enter the 5th Sem Marks");
+		int sem5 = scan.nextInt();
+		System.out.println("Please enter the 6th Sem Marks");
+		int sem6 = scan.nextInt();
+		System.out.println("Please enter the 7th Sem Marks");
+		int sem7 = scan.nextInt();
+		System.out.println("Please enter the 8th Sem Marks");
+		int sem8 = scan.nextInt();
+		
+		//marks of sem = 85, 79, 91, 76, 88, 95, 80, 85
+		
+		Question7 q7 = new Question7();
+		double average = q7.calculateAverage(sem1,sem2,sem3,sem4,sem5,sem6,sem7,sem8);
+		System.out.println("The average marks over 8 semesters = " +String.format("%.2f", average));
+		
+	}
+
+}
